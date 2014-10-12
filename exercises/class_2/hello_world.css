@@ -1,3 +1,7 @@
 p {
     font-weight: bold;
+    background color: yellow;
+    font-family: Arial, Times, Sans;
+    color: green;
+    text-decoration: underline;
 }
