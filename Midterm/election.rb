@@ -1,20 +1,29 @@
-def get_results
-    puts "What is the name of the candidate?"
-    candidate = gets.chomp
+def get_results candidate
+        puts "What are the totals for each precincts for #{candidate}? Type 'done' when finished."
+        precincts = 0
     while true
-        puts "What are each of the results of each precinct for #{candidate}? Type 'done' when finished."
-        results = gets.chomp
-        if results.downcase == 'done'
+        precinct = gets.chomp
+        if precinct.downcase == 'done'
             break
         end
-    results_array= []
-    percentage = 0
-    results_array.push(results)
-    percentage = (results / (results + results_array.size) * 100 )
-    return percentage
-        end
+        
+        precincts += precinct.to_i
+        
+    end
+    
+    return precincts
+    
 end
 
-get_results
+n_results = get_results "Michelle_Nunn"
+p_results = get_results "David_Perdue"
 
-print "#{candidate} is winning with #{percentage}% of the votes."
+totals = n_results + p_results 
+n_percentage = (n_results * 100 / totals)
+p_percentage = (p_results * 100 / totals)
+
+if n_results > p_results         
+    print "Michelle Nunn is winning with #{n_percentage}% of the votes."
+else
+    print "David Perdue is winning with #{p_percentage}% of the votes."
+end
