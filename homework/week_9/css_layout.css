@@ -1,0 +1,86 @@
+#one { height: 100px;
+	width: 100px;
+	border: 2px dashed black;
+	border-radius: 5px;
+	background-color: #2E64FE;
+    float: right;
+    text-align: center;
+    padding: 30px; 
+}
+
+#two {height: 300px;
+	width: 100px;
+	border: 2px solid green;
+	border-radius: 5px;
+	background-color: #58FA58;
+    float: right
+}
+
+#three {height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #9F81F7;
+    float: right;
+    text-align: center;
+}
+
+#four {height: 150px;
+	width: 100px;
+	border: 2px dashed purple;
+	border-radius: 5px;
+	background-color: #2EFEC8;
+    float: right;
+    text-align: right;
+}
+
+#five {height: 20px;
+	width: 80px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #00FFFF;
+    float: right
+}
+
+#six {height: 245px;
+	width: 550px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #FF00FF;
+    float: right;
+    padding: 20px;
+}
+
+#seven {height: 25px;
+	width: 160px;
+	border: 5px solid black;
+	border-radius: 5px;
+	background-color: #E0E6F8;
+    float: right
+}
+
+#eight {height: 50px;
+	width: 150px;
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: #FA5858;
+    float: right;
+    padding: 60px;
+}
+
+#nine {height: 350px;
+	width: 350px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #DF7401;
+    float: right
+}
+
+#ten {height: 1000px;
+	width: 60px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #F4FA58;
+    float: right;
+    padding: 5px;
+}

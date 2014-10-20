@@ -1,0 +1,11 @@
+table, td {
+	border: 1px #000000 solid;
+}
+
+thead {
+    color: orange;
+}
+
+#home {
+    background-color: orange;
+}
